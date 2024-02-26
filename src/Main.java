@@ -2,7 +2,7 @@ import java.sql.SQLOutput;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Задча 1:");
+        System.out.println("Задача 1:");
         int ageMax = 21;
         int ageMin = 16;
         if (ageMax >= 18) {
