@@ -37,20 +37,14 @@ public class Main {
         }
 
         System.out.println("Задача 3:");
-        int firstSpeed = 81;
-        int secondSpeed = 54;
-        if (firstSpeed < 60) {
-            System.out.println("1)Если скорость " + firstSpeed + ", то можно ездить спокойно.");
+        int speed = 81;
+        if (speed < 60) {
+            System.out.println("1)Если скорость " + speed + ", то можно ездить спокойно.");
         }
         else {
-            System.out.println("1)Если скорость " + firstSpeed + ", то придется заплатить штраф.");
+            System.out.println("1)Если скорость " + speed + ", то придется заплатить штраф.");
         }
-        if (secondSpeed < 60) {
-            System.out.println("2)Если скорость " + secondSpeed + ", то можно ездить спокойно.");
-        }
-        else {
-            System.out.println("2)Если скорость " + secondSpeed + ", то придется заплатить штраф.");
-        }
+
         System.out.println("Задание 4:");
         int age = 25;
         if (age >= 2 && age <=6) {
