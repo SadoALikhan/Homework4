@@ -4,45 +4,30 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Задача 1:");
         int ageMax = 21;
-        int ageMin = 16;
         if (ageMax >= 18) {
-            System.out.println("1)Если возраст человека равен " + ageMax + ", то он совершенолетний.");
+            System.out.println("Если возраст человека равен " + ageMax + ", то он совершенолетний.");
         }
         else {
-            System.out.println("1)Если возраст человека равен " + ageMax +
-                    ", то он не достиг совершеннолетия, нужно немного подождать.");
-        }
-        if (ageMin >= 18) {
-            System.out.println("2)Если возраст человека равен " + ageMin + ", то он совершенолетний.");
-        }
-        else {
-            System.out.println("2)Если возраст человека равен " + ageMin +
+            System.out.println("Если возраст человека равен " + ageMax +
                     ", то он не достиг совершеннолетия, нужно немного подождать.");
         }
 
         System.out.println("Задача 2:");
-        int tempHigher = 9;
-        int tempLower = 0;
-        if (tempHigher < 5) {
-            System.out.println("1)На улице " + tempHigher + " грдусов, нужно надеть шапку.");
+        int temp = 9;
+        if (temp < 5) {
+            System.out.println("На улице " + temp + " грдусов, нужно надеть шапку.");
         }
         else {
-            System.out.println("1)На улице " + tempHigher + " градусов, можно идти без шапки.");
-        }
-        if (tempLower < 5) {
-            System.out.println("2)На улице " + tempLower + " градусов, нужно надеть шапку.");
-        }
-        else {
-            System.out.println("2)На улице " + tempLower + " градусов, можно идти без шапки");
+            System.out.println("На улице " + temp + " градусов, можно идти без шапки.");
         }
 
         System.out.println("Задача 3:");
         int speed = 81;
         if (speed < 60) {
-            System.out.println("1)Если скорость " + speed + ", то можно ездить спокойно.");
+            System.out.println("Если скорость " + speed + ", то можно ездить спокойно.");
         }
         else {
-            System.out.println("1)Если скорость " + speed + ", то придется заплатить штраф.");
+            System.out.println("Если скорость " + speed + ", то придется заплатить штраф.");
         }
 
         System.out.println("Задание 4:");
